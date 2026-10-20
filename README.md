@@ -13,7 +13,7 @@ Qivorant is an AI task planning and execution agent for the OmniRush Frontier Bu
 ## Setup
 
 ```bash
-npm install
+npm ci
 cp .env.example .env
 ```
 
@@ -27,7 +27,7 @@ npm run dev
 
 ## Test offline
 
-Dependencies must be installed once with `npm install`. After that, the test command does not require a network connection:
+Dependencies must be installed once with `npm ci`. After that, the test command does not require a network connection:
 
 ```bash
 npm test
